@@ -14,7 +14,6 @@ Loop, Parse, Keys
     If (RandEnt > 0.99) 
     {
         Send, {Shift down}
-        KeyWait, Shift
         Loop 3 
         {
             Send, {Left}
